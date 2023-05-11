@@ -1,12 +1,11 @@
 import "./App.css";
-import NavigationMenu from "./components/NavigationMenu";
-import TopMenu from "./pages/TopMenu";
+
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
     <div className="App">
-      <NavigationMenu />
-      <TopMenu />
+      <Header />
     </div>
   );
 };
