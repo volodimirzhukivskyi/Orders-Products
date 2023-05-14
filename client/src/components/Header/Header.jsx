@@ -1,22 +1,31 @@
 import React from "react";
-import { Navbar, Container, Form, Button, Stack } from "react-bootstrap";
-import ActiveSessionsCounter from "../ActionSesionCounter";
-import DateTimer from "../Date";
-
+import {Container, Form, Navbar} from "react-bootstrap";
+import ActiveSessionsCounter from "../ActionSesionCounter/ActionSesionCounter";
+import DateTimer from "../Date/Date";
+import {ReactComponent as Logo} from '../../assets/header/logo-juce-svgrepo-com.svg';
+import styles from "./Header.module.scss";
 const Header = () => {
-  return (
-    <Navbar bg="black" variant="white" expand="lg">
-      <Container>
-        <Form.Control
-          placeholder="Username"
-          aria-label="Username"
-          aria-describedby="basic-addon1"
-        />
-        <ActiveSessionsCounter />
-        <DateTimer />
-      </Container>
-    </Navbar>
-  );
+    return (
+        <Navbar bg="white" variant="white" expand="lg">
+            <Container>
+                <Navbar.Brand className={styles.logo} href="#home">
+                    <
+                        Logo className={styles.logo_svg}
+                    />{' '}
+                    Inventory
+                </Navbar.Brand>
+                <Form.Control
+                    size={'sm'}
+                    className="w-25"
+                    placeholder="Search"
+                    aria-label="Search"
+                    aria-describedby="basic-addon1"
+                />
+                <ActiveSessionsCounter/>
+                <DateTimer/>
+            </Container>
+        </Navbar>
+    );
 };
 
 export default Header;

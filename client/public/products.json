@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "productName": "Product Name 1",
+    "productType": "household products",
+    "date": {
+      "start_date": "06/04/2018",
+      "end_date": "06/03/2023"
+    },
+    "amount_in_hryvnia": 4000,
+    "orderName": "Arrival 1"
+  },
+  {
+    "id": 2,
+    "productName": "Product Name 2",
+    "productType": "household products",
+    "date": {
+      "start_date": "06/04/2019",
+      "end_date": "06/03/2024"
+    },
+    "amount_in_hryvnia": 5500,
+    "orderName": "Arrival 2"
+  },
+  {
+    "id": 3,
+    "productName": "Product Name 3",
+    "productType": "electrical appliances",
+    "date": {
+      "start_date": "06/04/2020",
+      "end_date": "06/03/2025"
+    },
+    "amount_in_hryvnia": 7200,
+    "orderName": "Arrival 3"
+  },
+  {
+    "id": 4,
+    "productName": "Product Name 4",
+    "productType": "electrical appliances",
+    "date": {
+      "start_date": "06/04/2021",
+      "end_date": "06/03/2026"
+    },
+    "amount_in_hryvnia": 9200,
+    "orderName":  "Arrival 1"
+  },
+  {
+    "id": 5,
+    "productName": "Product Name 5",
+    "productType": "electrical appliances",
+    "date": {
+      "start_date": "06/04/2022",
+      "end_date": "06/03/2027"
+    },
+    "amount_in_hryvnia": 11500,
+    "orderName":  "Arrival 1"
+  },
+  {
+    "id": 6,
+    "productName": "Product Name 6",
+    "productType": "electrical appliances",
+    "date": {
+      "start_date": "06/04/2023",
+      "end_date": "06/03/2028"
+    },
+    "amount_in_hryvnia": 14000,
+    "orderName":  "Arrival 2"
+  }
+]

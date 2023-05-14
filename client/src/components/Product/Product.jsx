@@ -1,16 +1,20 @@
-const Product = ({ product }) => {
-  const { id, specification, type, title, photo, isNew, serialNumber } =
-    product;
-  return (
-    <ul>
-      <li>{id}</li>
-      <li>{specification}</li>
-      <li>{type}</li>
-      <li>{title}</li>
-      <li>{photo}</li>
-      <li>{isNew}</li>
-      <li>{serialNumber}</li>
-    </ul>
+import Table from "../Table/Table";
+import React, {useEffect, useState} from "react";
+import {convertUAHTo} from "../../helpers/convertFunction";
+
+const Product = ({ product,schema }) => {
+  const [amountInUsd, setAmountInUsd] = useState('')
+  const columns = React.useMemo(
+      () => schema,
+      []
+  )
+  useEffect(() => {
+    convertUAHTo(product.amount_in_hryvnia, 'USD').then(r => {
+      setAmountInUsd(r)
+    })
+  }, [])
+  return (<Table amountInUsd={amountInUsd} columns={columns} data={[product]}/>
+
   );
 };
 

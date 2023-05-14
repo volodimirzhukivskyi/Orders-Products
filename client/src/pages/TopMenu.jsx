@@ -1,6 +1,6 @@
 import React from "react";
-import { DateTimer } from "../components/Date";
-import ActiveSessionsCounter from "../components/ActionSesionCounter";
+import { DateTimer } from "../components/Date/Date";
+import ActiveSessionsCounter from "../components/ActionSesionCounter/ActionSesionCounter";
 
 const TopMenu = () => {
   return (

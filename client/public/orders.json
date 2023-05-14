@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRx10Q8xOMTneIWweJu-SVHKfB7vDyKfLThyucq8_HkLyz203ZJb0NS33C_W6y07bW8rvXhvobwb1FXF0eocFa4_YC_DUYCxJuvVZmYwoKJvLPn7o6cKN9eiPBT5Hl5j4PXqg&usqp=CAc",
+    "arrival_name": "Arrival 3",
+    "product_quantity": 15,
+    "date": {
+      "start_date": "06/04/2018",
+      "end_date": "06/03/2023"
+    },
+      "amount_in_hryvnia": 4000
+  },
+  {
+    "id": 2,
+    "url": "https://i.citrus.world/imgcache/size_800/uploads/shop/1/6/1678790383-sm-a546-galaxy-a54-5g-awesome-graphite-front.jpg",
+    "arrival_name": "Arrival 2",
+    "product_quantity": 5,
+    "date": {
+      "start_date": "06/04/2020",
+      "end_date": "06/04/2025"
+    },
+    "amount_in_hryvnia": 1200
+  },
+  {
+    "id": 3,
+    "url": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/i/p/iphone-14-pro-finish-select-202209-6-1inch-deeppurple_1_.jpg/w_600",
+    "arrival_name": "Arrival 1",
+    "product_quantity": 10,
+    "date": {
+      "start_date": "06/04/2019",
+      "end_date": "06/08/2025"
+    },
+    "amount_in_hryvnia": 2500
+  }
+]

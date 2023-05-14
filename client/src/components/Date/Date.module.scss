@@ -1,0 +1,17 @@
+.date{
+  &__weekday{
+
+  }
+  &__toString{
+   text-transform: uppercase;
+  }
+  &__time{
+    font-weight: 700;
+  }
+  &__clockSvg{
+    width: 20px;
+    height:20px;
+  }
+
+
+}

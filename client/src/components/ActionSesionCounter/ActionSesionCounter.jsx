@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
+import {Badge} from "react-bootstrap";
 
 const ActiveSessionsCounter = () => {
   const [activeSessions, setActiveSessions] = useState(0);
@@ -17,7 +18,10 @@ const ActiveSessionsCounter = () => {
 
   return (
     <div>
-      <h1>Active Sessions: {activeSessions}</h1>
+      <h3>
+        Active Sessions: <Badge bg="secondary">{activeSessions}</Badge>
+      </h3>
+
     </div>
   );
 };
