@@ -5,7 +5,8 @@ const path = require("path");
 const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
-
+const cors = require("cors");
+app.use(cors());
 let activeTabs = 0;
 
 // Сервер будет обслуживать статические файлы React-приложения

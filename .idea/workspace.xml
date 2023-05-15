@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97dfd7fd-f628-4f02-91e0-62028a8b459a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/order.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/selectors/order.select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NavigationMenu/NavigationMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavigationMenu/NavigationMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +42,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.15.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.28",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Volodimir\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.28&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Volodimir\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Volodimir\Desktop\order-products\client\src\components" />
@@ -74,7 +76,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683742642323</updated>
-      <workItem from="1683742643529" duration="19327000" />
+      <workItem from="1683742643529" duration="19758000" />
+      <workItem from="1683786014291" duration="988000" />
+      <workItem from="1683787036087" duration="210000" />
+      <workItem from="1683828595664" duration="35000" />
+      <workItem from="1683902180632" duration="3366000" />
+      <workItem from="1684014116038" duration="374000" />
+      <workItem from="1684040845813" duration="1213000" />
+      <workItem from="1684084630758" duration="1173000" />
+      <workItem from="1684158885267" duration="3005000" />
     </task>
     <servers />
   </component>

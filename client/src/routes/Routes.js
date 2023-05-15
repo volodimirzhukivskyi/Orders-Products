@@ -1,15 +1,22 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import App from "../App";
+import { createHashRouter } from "react-router-dom";
 import Products from "../pages/Products";
 import Orders from "../pages/Orders";
+import App from "../App";
 
-export const Router = () => {
-    return <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<App/>}>
-                <Route path="/products" element={<Products/>}></Route>
-                <Route path="/orders" element={<Orders/>}></Route>
-            </Route>
-        </Routes>
-    </BrowserRouter>
-}
+export const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+        {
+            path: "/products",
+            element: <Products  />,
+        },
+        {
+            path: "/orders",
+            element: <Orders />,
+        },
+    ],
+  },
+
+]);

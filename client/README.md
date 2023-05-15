@@ -5,7 +5,3 @@
 
 **!Для запуску node servera**
 
-_Запуск сервера необхідно для тесту каунтера сесій_
-
-_Візуальне представлення проєкту:_
-https://volodimirzhukivskyi.github.io/Orders-Products/

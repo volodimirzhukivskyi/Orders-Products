@@ -7,10 +7,10 @@ const NavigationMenu = () => {
         className={addCssClass("shadow p-3 mb-5 bg-white rounded",styles.sideBar)}
         activeKey="/home">
         <Nav.Item>
-            <Link className={styles.sideBar__link} to={`products`}>route products</Link>
+            <Link className={styles.sideBar__link} to="/products">route products</Link>
         </Nav.Item>
         <Nav.Item>
-            <Link className={styles.sideBar__link} to={`orders`}>route orders</Link>
+            <Link className={styles.sideBar__link} to="/orders">route orders</Link>
         </Nav.Item>
     </Nav>
 

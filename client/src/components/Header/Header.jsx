@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar className={addCssClass("shadow p-3  bg-white rounded ",styles.headerNav)} bg="white" variant="white" expand="lg">
             <Container>
                 <Navbar.Brand className={styles.logo} >
-                    <Link style={{textDecoration:"none", color:"#60ff00"}} to={"/"}>
+                    <Link style={{textDecoration:"none", color:"#60ff00"}} to="/">
                         <
                             Logo className={styles.logo_svg}
                         />   {' '}
