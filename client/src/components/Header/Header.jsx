@@ -4,9 +4,10 @@ import ActiveSessionsCounter from "../ActionSesionCounter/ActionSesionCounter";
 import DateTimer from "../Date/Date";
 import {ReactComponent as Logo} from '../../assets/header/logo-juce-svgrepo-com.svg';
 import styles from "./Header.module.scss";
+import {addCssClass} from "../../helpers/otherFunction";
 const Header = () => {
     return (
-        <Navbar bg="white" variant="white" expand="lg">
+        <Navbar className={addCssClass("shadow p-3 mb-5 bg-white rounded ",styles.headerNav)} bg="white" variant="white" expand="lg">
             <Container>
                 <Navbar.Brand className={styles.logo} href="#home">
                     <
@@ -14,13 +15,7 @@ const Header = () => {
                     />{' '}
                     Inventory
                 </Navbar.Brand>
-                <Form.Control
-                    size={'sm'}
-                    className="w-25"
-                    placeholder="Search"
-                    aria-label="Search"
-                    aria-describedby="basic-addon1"
-                />
+
                 <ActiveSessionsCounter/>
                 <DateTimer/>
             </Container>

@@ -1,1 +1,2 @@
-export const getOrder = (state) => state.orders.orders
+export const getOrder = (state) => state.order.orders
+export const getShowProducts = (state) => state.order.showProducts

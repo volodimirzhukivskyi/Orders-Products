@@ -6,7 +6,6 @@ const ModalComponent = ({show, handleClose,title,actions}) => {
         <Modal.Header closeButton>
             <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Product Name</Modal.Body>
         <Modal.Footer>
             {actions}
         </Modal.Footer>

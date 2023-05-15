@@ -1,8 +1,8 @@
 
-export const stopPropagation =(func)=>{
+export const stopPropagation =(func,dispatch)=>{
     return(e)=> {
         e?.stopPropagation()
-        func()
+        dispatch(func())
     }
 }
 export const sendRequest =(url)=>{

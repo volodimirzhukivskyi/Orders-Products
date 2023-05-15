@@ -13,7 +13,7 @@ const Product = ({ product,schema }) => {
       setAmountInUsd(r)
     })
   }, [])
-  return (<Table amountInUsd={amountInUsd} columns={columns} data={[product]}/>
+  return (<Table style={{padding: 0}} amountInUsd={amountInUsd} columns={columns} data={[product]}/>
 
   );
 };

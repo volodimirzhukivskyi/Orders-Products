@@ -4,9 +4,14 @@
   }
   &__toString{
    text-transform: uppercase;
+    display: flex;
+    gap: 4px;
+    align-items: center;
   }
   &__time{
     font-weight: 700;
+    display: flex;
+    align-items: center;
   }
   &__clockSvg{
     width: 20px;

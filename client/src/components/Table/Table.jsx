@@ -7,16 +7,16 @@ import BTable from 'react-bootstrap/Table';
 import {useTable} from 'react-table'
 import {ListGroup} from "react-bootstrap";
 
-function Table({amountInUsd, actions, columns, data}) {
+function Table({style,amountInUsd, actions, columns, data}) {
     const {getTableProps, rows, prepareRow} = useTable({
         columns,
         data,
     })
 
     return (
-        <div className={styles.table__wrapper}>
+        <div className={styles.table__wrapper} style={style}>
             {actions}
-            <BTable style={{margin: 0}} className={styles.table} striped bordered hover size="sm" {...getTableProps()}>
+            <BTable style={{margin: 0,...style}} className={styles.table} striped bordered hover size="sm" {...getTableProps()}>
                 <tbody>
                 {rows.map((row, i) => {
                     prepareRow(row)

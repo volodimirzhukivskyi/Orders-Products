@@ -7,14 +7,16 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    //TODO errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "products",
+        element: <Products />,
+      },
+      {
+        path: "orders",
+        element: <Orders />,
+      },
+    ],
   },
-  {
-    path: "/products",
-    element: <Products  />,
-  },
-  {
-    path: "/orders",
-    element: <Orders />,
-  },
+
 ]);
