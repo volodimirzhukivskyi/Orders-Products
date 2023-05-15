@@ -21,8 +21,8 @@ export const DAYS_OF_WEEK = [
     'Friday',
     'Saturday'
 ];
-export const ORDERS_API = "./orders.json";
-export const PRODUCTS_API = "./products.json";
+export const ORDERS_API = `${process.env.PUBLIC_URL}/orders.json`;
+export const PRODUCTS_API =`${process.env.PUBLIC_URL}/products.json`;
 export const BANK_API = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json"
 export const SCHEME_ORDER = [
 
