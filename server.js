@@ -18,9 +18,9 @@ app.get("*", (req, res) => {
 });
 server.listen(8080);
 // Запуск сервера
-// app.listen(8080, () => {
-//   console.log("Сервер запущен на порту 8080");
-// });
+app.listen(8080, () => {
+  console.log("Сервер запущен на порту 8080");
+});
 io.on("connection", (socket) => {
   console.log(activeTabs);
   activeTabs++;
