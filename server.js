@@ -16,9 +16,8 @@ app.use(express.static(path.join(__dirname, "client/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
-server.listen(8080);
 // Запуск сервера
-app.listen(8080, () => {
+server.listen(8080, () => {
   console.log("Сервер запущен на порту 8080");
 });
 io.on("connection", (socket) => {
